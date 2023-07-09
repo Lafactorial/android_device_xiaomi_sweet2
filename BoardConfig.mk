@@ -9,6 +9,9 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/sweet2
 
+# MiuiCamera
+-include device/xiaomi/miuicamera-sweet/BoardConfig.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sweet2
 
