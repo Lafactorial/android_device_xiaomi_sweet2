@@ -82,6 +82,11 @@ vendor/lib/libaudioroute_ext.so
 vendor/lib/libqtigef.so
 vendor/lib/vndk/libxlog.so
 
+# Audio Dirac
+lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so
+lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
+vendor/etc/diracmobile.config
+
 # Audio extensions
 vendor/lib/btaudio_offload_if.so
 vendor/lib/liba2dpoffload.so
@@ -89,6 +94,10 @@ vendor/lib/libhdmiedid.so
 vendor/lib/libhfp.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
+
+# Audio FX modules
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib64/soundfx/libmisoundfx.so
 
 # Batterysecret
 vendor/bin/batterysecret
