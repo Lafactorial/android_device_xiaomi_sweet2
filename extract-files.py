@@ -57,6 +57,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libmegface.so', 'libfacedet.so')
         .replace_needed('libMegviiFacepp-0.5.2.so', 'libFaceDetectpp-0.5.2.so')
         .replace_needed('megviifacepp_0_5_2_model', 'facedetectpp_0_5_2_model'),
+    ('vendor/lib64/libdlbdsservice.so', 'vendor/lib/libstagefright_soft_ac4dec.so', 'vendor/lib/libstagefright_soft_ddpdec.so'): blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
