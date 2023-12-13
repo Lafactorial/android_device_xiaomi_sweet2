@@ -7,10 +7,10 @@
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/sweet
+DEVICE_PATH := device/xiaomi/sweet2
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := sweet2
 
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
@@ -19,7 +19,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/sweet.config
+TARGET_KERNEL_CONFIG += vendor/sweet2.config
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -44,4 +44,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 VENDOR_SECURITY_PATCH := 2023-11-01
 
 # Inherit from proprietary files
-include vendor/xiaomi/sweet/BoardConfigVendor.mk
+include vendor/xiaomi/sweet2/BoardConfigVendor.mk
