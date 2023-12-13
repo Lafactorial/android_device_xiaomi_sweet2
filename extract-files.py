@@ -47,7 +47,7 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lock')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
-    ('vendor/lib64/libarcsoft_hta.so', 'vendor/lib64/libarcsoft_super_night_raw.so', 'vendor/lib64/libhvx_interface.so', 'vendor/lib64/libmialgo_rfs.so'): blob_fixup()
+    ('vendor/lib64/libarcsoft_hta.so', 'vendor/lib64/libmialgo_rfs.so'): blob_fixup()
         .clear_symbol_version('remote_handle_close')
         .clear_symbol_version('remote_handle_invoke')
         .clear_symbol_version('remote_handle_open')
