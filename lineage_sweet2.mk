@@ -34,3 +34,9 @@ BUILD_FINGERPRINT := Redmi/sweet_global2/sweet:13/TKQ1.221114.001/V816.0.6.0.THG
 # Maintainer Flags
 ALPHA_MAINTAINER := HaKaN
 ALPHA_BUILD_TYPE := Unofficial
+
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 1
