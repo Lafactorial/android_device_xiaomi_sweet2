@@ -34,3 +34,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Maintainer Flags
 ALPHA_MAINTAINER := HaKaN
 ALPHA_BUILD_TYPE := Unofficial
+
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 1
