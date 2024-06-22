@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# System properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/properties/recovery.prop:$(TARGET_COPY_OUT_RECOVERY)/root/recovery.prop
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
