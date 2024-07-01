@@ -11,8 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Evolution X configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+EVO_BUILD_TYPE := Unofficial
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_PICO_GAPPS := true
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := sweet2
