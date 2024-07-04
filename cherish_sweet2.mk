@@ -11,14 +11,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+BUILD_WITH_GAPPS := true
+CHERISH_BUILD_TYPE := Unofficial
+WITH_GMS := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_PICO_GAPPS := true
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Cherish props
+CHERISH_MAINTAINER := HaKaN
+CHERISH_CHIPSET := SM7150
+CHERISH_BATTERY := 5000mAh
+CHERISH_DISPLAY := 1080x2400
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := sweet2
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2209116AG
-PRODUCT_NAME := lineage_sweet2
+PRODUCT_NAME := cherish_sweet2
 PRODUCT_SYSTEM_DEVICE := sweet
 PRODUCT_SYSTEM_NAME := sweet_global2
 
