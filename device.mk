@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.fingerprints.extension@1.0.vendor
 
+# Dolby
+TARGET_USES_DOLBY := true
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
