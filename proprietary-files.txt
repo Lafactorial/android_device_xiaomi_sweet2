@@ -1,4 +1,4 @@
-# These proprietary files are extracted from OS1.0.6.0.THGMIXM (SWEETK6AGlobal), unless pinned
+# These proprietary files are extracted from OS1.0.8.0.THGMIXM (SWEETK6AGlobal), unless pinned
 
 # ADSP modules
 -vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
