@@ -14,6 +14,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit some common ProjectEverest stuff.
+EVEREST_MAINTAINER := HaKaN
+EVEREST_BUILD_TYPE := UNOFFICIAL
+WITH_GAPPS := false
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := sweet2
 PRODUCT_MANUFACTURER := Xiaomi
