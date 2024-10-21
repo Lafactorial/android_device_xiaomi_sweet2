@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet2.mk
+    $(LOCAL_DIR)/derp_sweet2.mk
+	
+COMMON_LUNCH_CHOICES := \
+    derp_sweet2-userdebug \
+    derp_sweet2-eng
