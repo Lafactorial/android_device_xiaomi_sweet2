@@ -1,0 +1,2 @@
+# IR
+/dev/ir_spi                                                          u:object_r:vendor_ir_device:s0
