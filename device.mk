@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Settings
 PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer \
     XiaomiDolby
 
 # Display
