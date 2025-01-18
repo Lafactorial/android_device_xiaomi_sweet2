@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet2.mk
+    $(LOCAL_DIR)/pixelage_sweet2.mk
