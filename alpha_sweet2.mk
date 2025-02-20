@@ -39,4 +39,4 @@ ALPHA_BUILD_TYPE := Unofficial
 # 1 - vanilla (default)
 # 2 - microg
 # 3 - gapps
-TARGET_BUILD_PACKAGE := 3
+TARGET_BUILD_PACKAGE := 2
