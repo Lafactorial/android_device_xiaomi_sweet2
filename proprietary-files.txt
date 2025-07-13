@@ -70,12 +70,12 @@ vendor/firmware/awinic/fs1815.fsm:vendor/firmware/fs1815.fsm
 
 # Audio HAL
 vendor/lib/hw/audio.primary.sm6150.so
+vendor/lib/vndk/libxlog.so
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libqtigef.so
-vendor/lib/vndk/libxlog.so
 
 # Audio extensions
 vendor/lib/btaudio_offload_if.so
@@ -180,6 +180,11 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_super_night_raw.so
 
 # Camera-components
+vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
+vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 vendor/lib64/camera/components/com.altek.node.depurple.so
 vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
 vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
@@ -231,11 +236,6 @@ vendor/lib64/camera/components/com.xiaomi.node.mifilter.so
 vendor/lib64/camera/components/com.xiaomi.node.mifragment.so
 vendor/lib64/camera/components/com.xiaomi.node.mimovie.so
 vendor/lib64/camera/components/com.xiaomi.node.misegment.so
-vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
-vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libmmcamera_cac3.so
 
