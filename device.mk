@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
 # Dolby
 TARGET_USES_DOLBY := true
 
+# Kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
