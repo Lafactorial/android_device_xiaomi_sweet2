@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     hwcomposer.sweet
 
+# Kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
