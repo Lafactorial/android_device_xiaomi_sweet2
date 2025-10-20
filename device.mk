@@ -35,6 +35,9 @@ TARGET_USES_DOLBY := true
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
+# Kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
