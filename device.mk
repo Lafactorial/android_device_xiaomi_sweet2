@@ -7,6 +7,9 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
+# Inherit from dolby
+$(call inherit-product-if-exists, device/oneplus/dolby/device.mk)
+
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -25,6 +28,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     hwcomposer.sweet
+
+# Dolby
+TARGET_USES_DOLBY := true
 
 # NFC
 PRODUCT_PACKAGES += \
