@@ -9,6 +9,8 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/sweet2
 
+TARGET_USES_COMPRESSED_APEX := false
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sweet2
 
